@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "HTML files copied successfully"
+cp -rua *.html ../
