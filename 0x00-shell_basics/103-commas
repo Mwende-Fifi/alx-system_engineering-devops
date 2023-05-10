@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -map
+ls -apv1 --group-directories-first | tr '' ',' | sed 's/,$//'
